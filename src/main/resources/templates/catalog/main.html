@@ -10,6 +10,7 @@ xmlns:th="http://www.thymeleaf.org">
     <div th:replace="common/top">
         这是头部
     </div>
+
     <div id="Content">
         <div id="Welcome">
             <div id="WelcomeContent">
@@ -36,12 +37,12 @@ xmlns:th="http://www.thymeleaf.org">
             <div id="MainImage">
                 <div id="MainImageContent">
                     <map name="estoremap">
-                        <area alt="Birds" coords="72,2,280,250" href="viewCategory?categoryId=BIRDS" shape="rect" />
-                        <area alt="Fish" coords="2,180,72,250" href="viewCategory?categoryId=FISH" shape="rect" />
-                        <area alt="Dogs" coords="60,250,130,320" href="viewCategory?categoryId=DOGS" shape="rect" />
-                        <area alt="Reptiles" coords="140,270,210,340" href="viewCategory?categoryId=REPTILES" shape="rect" />
-                        <area alt="Cats" coords="225,240,295,310" href="viewCategory?categoryId=CATS" shape="rect" />
-                        <area alt="Birds" coords="280,180,350,250" href="viewCategory?categoryId=BIRDS" shape="rect" />
+                        <area alt="Birds" coords="72,2,280,250" href="/catalog/viewCategory?categoryId=BIRDS" shape="rect" />
+                        <area alt="Fish" coords="2,180,72,250" href="/catalog/viewCategory?categoryId=FISH" shape="rect" />
+                        <area alt="Dogs" coords="60,250,130,320" href="/catalog/viewCategory?categoryId=DOGS" shape="rect" />
+                        <area alt="Reptiles" coords="140,270,210,340" href="/catalog/viewCategory?categoryId=REPTILES" shape="rect" />
+                        <area alt="Cats" coords="225,240,295,310" href="/catalog/viewCategory?categoryId=CATS" shape="rect" />
+                        <area alt="Birds" coords="280,180,350,250" href="/catalog/viewCategory?categoryId=BIRDS" shape="rect" />
                     </map>
                     <img height="355" src="../images/splash.gif" align="middle" usemap="#estoremap" width="350" />
                 </div>
